@@ -1,0 +1,3 @@
+Создание докер-контейнера с бд
+
+docker run --name pg-db2 -p 5432:5432 -e POSTGRES_USER=appdb -e POSTGRES_PASSWORD=appdb -e POSTGRES_DB=db2 -d postgres:14.6
